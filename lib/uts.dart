@@ -15,9 +15,9 @@ class _DemoState extends State<Demo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Kalkulator IMT'),
+        title: Text('Kalkulator BMI'),
         centerTitle: true,
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.red,
       ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 10.0),
